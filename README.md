@@ -24,7 +24,6 @@ En el pasado, ambos objetivos estratégicos (estimación de ventas e inteligenci
 La propuesta del presente proyecto busca mejorar el alcance y efectividad de los objetivos estratégicos planteados haciendo uso de la ciencia de datos y la automatización de procesos relacionados con la captura, transformación y carga de dichos datos. Se plantea, por lo tanto:
 
 ●	La creación de un algoritmo predictivo que saque provecho de datos externos que definen el mercado mientras se saca provecho del conocimiento interno de los clientes.
-
 ●	La creación de un primer tablero de inteligencia de negocio enfocado en presentar de manera práctica y útil la información pertinente a la gestión del equipo de ventas.
 
 Si bien es cierto que los conceptos y tecnologías planteadas no son nuevas para muchas empresas alrededor del mundo, sí que resulta una propuesta innovadora para la organización en cuestión. La respuesta que se formule a la cuestión de la transformación digital, será vital para la supervivencia y competencia de la empresa en años futuros. Por lo tanto, resulta más que adecuado y oportuno el lanzamiento de este proyecto piloto.
@@ -35,17 +34,24 @@ El procedimiento seguido para lograr la solución planteada fue el siguiente:
 4.	Ingeniería de Características y Modelos: utilizando conocimiento del dominio se procedió a seleccionar y validar las variables a partir de los datos originales, buscando mejorar de esta manera el rendimiento de los algoritmos a ser creados. Finalmente se crearon diversos modelos predictivos, comparando su rendimiento, para seleccionar el de mejor desempeño en el cuaderno de Jupyter. Este modelo será llevado a producción en etapas futuras de desarrollo.
 5.	Preparación de Datos para Inteligencia de Negocio: debido a que en los tableros de visualización en necesario mostrar métricas específicas y personalizadas, se procedió a crear un cuaderno de Jupyter específicamente dirigida al pre-procesado de dichas métricas y KPIs de interés para el equipo de ventas.
 6.	Creación de Tablero en Power BI: finalmente se creó un tablero siguiendo el esquema DAR (Dashboard - Analysis - Report) para facilitar la inspección y seguimiento de métricas para el equipo de ventas.
+
+
 Las predicciones obtenidas con el algoritmo creado demostraron capacidad de tomar en cuenta variaciones significativas de ventas, incluso a frecuencia diaria. Esta información facilitará el establecimiento de metas objetivas en función de las condiciones del mercado. Igualmente, el tablero de Power BI para inteligencia de negocios referido al equipo de ventas ha facilitado el seguimiento por parte de la gerencia y se planea repetir el procedimiento para otros departamentos.
+
 A continuación, se describe el estado del arte en el desarrollo de algoritmos predictivos, haciendo énfasis en el tratamiento de series temporales con el uso de Machine Learning. Con esto mente se establecerán los objetivos específicos de la presente investigación, la solución planteada, los criterios de evaluación establecidos como criterio de éxito y los resultados obtenidos. Finalmente, se ofrecen conclusiones y recomendaciones para desarrollos futuros.
  
 ## OBJETIVOS
 ### OBJETIVO GENERAL
 Crear un algoritmo predictivo de montos de ventas a ser alcanzados por el equipo de ventas a fin de definir adecuadamente metas para el mismo equipo.
 ### OBJETIVOS ESPECÍFICOS
-●	Extraer datos desde fuentes internas (CRM) y fuentes externas (Banco Central de Chile) y automatizar el proceso de preparación y limpieza para ser utilizados en pasos siguientes. 
+●	Extraer datos desde fuentes internas (CRM) y fuentes externas (Banco Central de Chile) y automatizar el proceso de preparación y limpieza para ser utilizados en pasos siguientes.
+
 ●	Llevar a cabo un Análisis Exploratorio de Datos para comprender la naturaleza de los datos de entrada e identificar patrones explotables por el algoritmo de predicción.
+
 ●	Comparar el rendimiento de diversos modelos predictivos con distintas configuraciones e identificar el que mejor se ajuste al alcance de las metas propuestas.
+
 ●	Crear un tablero de visualización utilizando el esquema DAR para mejorar la toma de decisiones relativa al equipo de ventas.
+
 ## SOLUCIÓN PLANTEADA
 A fin de lograr los objetivos propuestos se siguió una metodología de seis (6) pasos que englobaron el ciclo completo de los datos desde su obtención hasta su uso en el entrenamiento de redes neuronales. Tal y como se mencionó brevemente en la introducción los pasos fueron los siguientes:
 1.	Obtener datos de las fuentes principales.
