@@ -24,6 +24,7 @@ En el pasado, ambos objetivos estratégicos (estimación de ventas e inteligenci
 La propuesta del presente proyecto busca mejorar el alcance y efectividad de los objetivos estratégicos planteados haciendo uso de la ciencia de datos y la automatización de procesos relacionados con la captura, transformación y carga de dichos datos. Se plantea, por lo tanto:
 
 ●	La creación de un algoritmo predictivo que saque provecho de datos externos que definen el mercado mientras se saca provecho del conocimiento interno de los clientes.
+
 ●	La creación de un primer tablero de inteligencia de negocio enfocado en presentar de manera práctica y útil la información pertinente a la gestión del equipo de ventas.
 
 Si bien es cierto que los conceptos y tecnologías planteadas no son nuevas para muchas empresas alrededor del mundo, sí que resulta una propuesta innovadora para la organización en cuestión. La respuesta que se formule a la cuestión de la transformación digital, será vital para la supervivencia y competencia de la empresa en años futuros. Por lo tanto, resulta más que adecuado y oportuno el lanzamiento de este proyecto piloto.
