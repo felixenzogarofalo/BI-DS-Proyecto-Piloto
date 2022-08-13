@@ -1,5 +1,5 @@
-# Projecto piloto de Business Intelligence y Data Science para empresa de venta de software
-## Abstract
+# PROYECTO PILOTO DE BUSINESS INTELLIGENCE Y DATA SCIENCE PARA EMPRESA DE VENTA DE SOFTWARE
+## ABSTRACT
 Propuesta inicial para la creación de procesos de extracción, procesamiento y análisis de datos de negocio haciendo uso de inteligencia de negocio y ciencia de datos junto con la aplicación de algoritmos de aprendizaje automático para la predicción de ventas
 
 ## RESUMEN
